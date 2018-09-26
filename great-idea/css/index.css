@@ -80,7 +80,7 @@ body{
 		text-decoration: none;
 	}
 
-
+/* -- main splash page -- */
 .splash {
 	display: flex;
 	justify-content: space-evenly;
@@ -167,5 +167,66 @@ body{
 	display: flex;
 	justify-content: center;
 	margin: 50px 0px 80px 0px;
+	font-size: 18px;
 }
 
+/*-- services css --*/
+
+.services-header-img {
+	padding: 30px 0px 0px 0px;
+}
+
+.services {
+	padding: 0px 0px 20px 0px;
+	border-bottom: 1px solid black;
+}
+	.services_title {
+		font-size: 25px;
+		padding: 30px 0px 0px 0px ;
+	}
+
+.the_six_options {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px 0px 40px 0px;
+	border-bottom: 2px solid black
+}
+	.main_div {
+		width: 430px;
+		padding: 20px 20px 30px 20px;
+		border: 1px solid black;
+		margin: 20px 0px 0px 0px;
+			background-color: #F4F3F4;
+	}
+		.main_div p {
+			padding: 0px 0px 40px 0px;
+		}
+		.learn_more_button {
+			border: 1px solid black;
+			text-decoration: none;
+			border-radius: 5px;
+			padding: 8px 40px 8px 40px;
+			background-color: white;
+			font-size: 10px;
+
+		}
+
+.some_facts {
+	padding: 30px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+	.facts_left_side {
+		width: 400px;
+	}
+		.facts_left_side p {
+			padding: 0px 0px 20px 0px;
+		}
+		.facts_left_side ul {
+			margin: 0px 0px 0px 20px;
+		}
+		.facts_left_side ul li{
+			list-style-type: square;
+			padding: 10px 0px 0px 0px;
+		}
